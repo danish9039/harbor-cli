@@ -16,10 +16,10 @@ package root
 import (
 	"fmt"
 
-	"github.com/goharbor/harbor-cli/cmd/harbor/internal/version"
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	"github.com/goharbor/harbor-cli/pkg/views/info/list"
+	"github.com/danish9039/harbor-cli/cmd/harbor/internal/version"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/views/info/list"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

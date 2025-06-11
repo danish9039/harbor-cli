@@ -16,7 +16,7 @@ package api
 import (
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/repository"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/search"
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 	log "github.com/sirupsen/logrus"
 )
 

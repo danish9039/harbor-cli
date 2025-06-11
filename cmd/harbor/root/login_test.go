@@ -16,8 +16,8 @@ package root_test
 import (
 	"testing"
 
-	"github.com/goharbor/harbor-cli/cmd/harbor/root"
-	helpers "github.com/goharbor/harbor-cli/test/helper"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root"
+	helpers "github.com/danish9039/harbor-cli/test/helper"
 	"github.com/stretchr/testify/assert"
 )
 

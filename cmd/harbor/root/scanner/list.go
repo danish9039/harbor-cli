@@ -16,9 +16,9 @@ package scanner
 import (
 	"fmt"
 
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	list "github.com/goharbor/harbor-cli/pkg/views/scanner/list"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	list "github.com/danish9039/harbor-cli/pkg/views/scanner/list"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

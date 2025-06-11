@@ -19,7 +19,7 @@ import (
 
 	"github.com/charmbracelet/bubbles/table"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/models"
-	"github.com/goharbor/harbor-cli/pkg/views/base/tablelist"
+	"github.com/danish9039/harbor-cli/pkg/views/base/tablelist"
 )
 
 func DisplayScannerMetadata(md *models.ScannerAdapterMetadata) {

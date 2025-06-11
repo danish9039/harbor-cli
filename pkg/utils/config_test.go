@@ -17,10 +17,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/goharbor/harbor-cli/cmd/harbor/root"
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 
-	helpers "github.com/goharbor/harbor-cli/test/helper"
+	helpers "github.com/danish9039/harbor-cli/test/helper"
 	"github.com/stretchr/testify/assert"
 )
 

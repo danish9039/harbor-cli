@@ -19,8 +19,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/goharbor/harbor-cli/cmd/harbor/root"
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

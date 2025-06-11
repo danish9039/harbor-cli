@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/huh"
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 	log "github.com/sirupsen/logrus"
 )
 

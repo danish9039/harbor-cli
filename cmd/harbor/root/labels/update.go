@@ -15,9 +15,9 @@ package labels
 
 import (
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/models"
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/prompt"
-	"github.com/goharbor/harbor-cli/pkg/views/label/update"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/prompt"
+	"github.com/danish9039/harbor-cli/pkg/views/label/update"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

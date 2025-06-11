@@ -67,10 +67,10 @@ func (m *HarborCli) BuildDev(
 
 	gitCommit, _ := builder.WithExec([]string{"git", "rev-parse", "--short", "HEAD", "--always"}).Stdout(ctx)
 	buildTime := time.Now().UTC().Format(time.RFC3339)
-	ldflagsArgs := fmt.Sprintf(`-X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.Version=dev
-						  -X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.GoVersion=%s
-						  -X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.BuildTime=%s
-						  -X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.GitCommit=%s
+	ldflagsArgs := fmt.Sprintf(`-X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.Version=dev
+						  -X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.GoVersion=%s
+						  -X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.BuildTime=%s
+						  -X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.GitCommit=%s
 				`, GO_VERSION, buildTime, gitCommit)
 	builder = builder.WithExec([]string{
 		"go", "build", "-ldflags", ldflagsArgs, "-o", "/bin/harbor-cli", "/src/cmd/harbor/main.go",
@@ -104,10 +104,10 @@ func (m *HarborCli) build(
 
 	gitCommit, _ := temp.WithExec([]string{"git", "rev-parse", "--short", "HEAD", "--always"}).Stdout(ctx)
 	buildTime := time.Now().UTC().Format(time.RFC3339)
-	ldflagsArgs := fmt.Sprintf(`-X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.Version=%s
-						  -X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.GoVersion=%s
-						  -X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.BuildTime=%s
-						  -X github.com/goharbor/harbor-cli/cmd/harbor/internal/version.GitCommit=%s
+	ldflagsArgs := fmt.Sprintf(`-X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.Version=%s
+						  -X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.GoVersion=%s
+						  -X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.BuildTime=%s
+						  -X github.com/danish9039/harbor-cli/cmd/harbor/internal/version.GitCommit=%s
 				`, version, GO_VERSION, buildTime, gitCommit)
 
 	for _, goos := range oses {
@@ -193,7 +193,7 @@ func (m *HarborCli) PublishImage(
 		WithLabel("org.opencontainers.image.created", creationTime).
 		WithLabel("org.opencontainers.image.description", "Harbor CLI - A command-line interface for CNCF Harbor, the cloud native registry!").
 		WithLabel("io.artifacthub.package.readme-url", "https://raw.githubusercontent.com/goharbor/harbor-cli/main/README.md").
-		WithLabel("org.opencontainers.image.source", "https://github.com/goharbor/harbor-cli").
+		WithLabel("org.opencontainers.image.source", "https://github.com/danish9039/harbor-cli").
 		WithLabel("io.artifacthub.package.license", "Apache-2.0")
 
 	// Publish the image

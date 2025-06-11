@@ -14,7 +14,7 @@
 package artifact
 
 import (
-	"github.com/goharbor/harbor-cli/cmd/harbor/root/artifact/label"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root/artifact/label"
 	"github.com/spf13/cobra"
 )
 

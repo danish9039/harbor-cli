@@ -1,4 +1,4 @@
-module github.com/goharbor/harbor-cli
+module github.com/danish9039/harbor-cli
 
 go 1.24
 

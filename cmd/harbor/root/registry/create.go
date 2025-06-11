@@ -14,8 +14,8 @@
 package registry
 
 import (
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/views/registry/create"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/views/registry/create"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

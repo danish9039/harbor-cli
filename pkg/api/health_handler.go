@@ -17,7 +17,7 @@ import (
 	"fmt"
 
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/health"
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 )
 
 func GetHealth() (*health.GetHealthOK, error) {

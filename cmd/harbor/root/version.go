@@ -16,7 +16,7 @@ package root
 import (
 	"fmt"
 
-	"github.com/goharbor/harbor-cli/cmd/harbor/internal/version"
+	"github.com/danish9039/harbor-cli/cmd/harbor/internal/version"
 	"github.com/spf13/cobra"
 )
 

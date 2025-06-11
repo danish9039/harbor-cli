@@ -20,8 +20,8 @@ import (
 
 	"github.com/goharbor/go-client/pkg/harbor"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/user"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	"github.com/goharbor/harbor-cli/pkg/views/login"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/views/login"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"

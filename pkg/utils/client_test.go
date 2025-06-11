@@ -17,8 +17,8 @@ import (
 	"testing"
 
 	"github.com/goharbor/go-client/pkg/harbor"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	helpers "github.com/goharbor/harbor-cli/test/helper"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	helpers "github.com/danish9039/harbor-cli/test/helper"
 	"github.com/stretchr/testify/assert"
 )
 

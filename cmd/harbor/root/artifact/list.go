@@ -17,10 +17,10 @@ import (
 	"fmt"
 
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/artifact"
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/prompt"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	artifactViews "github.com/goharbor/harbor-cli/pkg/views/artifact/list"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/prompt"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	artifactViews "github.com/danish9039/harbor-cli/pkg/views/artifact/list"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

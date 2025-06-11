@@ -17,10 +17,10 @@ import (
 	"fmt"
 
 	proj "github.com/goharbor/go-client/pkg/sdk/v2.0/client/project"
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/prompt"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	auditLog "github.com/goharbor/harbor-cli/pkg/views/project/logs"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/prompt"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	auditLog "github.com/danish9039/harbor-cli/pkg/views/project/logs"
 	log "github.com/sirupsen/logrus"
 
 	"github.com/spf13/cobra"

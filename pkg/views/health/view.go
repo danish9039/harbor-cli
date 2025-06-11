@@ -20,8 +20,8 @@ import (
 	"github.com/charmbracelet/bubbles/table"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/health"
-	"github.com/goharbor/harbor-cli/pkg/views"
-	"github.com/goharbor/harbor-cli/pkg/views/base/tablelist"
+	"github.com/danish9039/harbor-cli/pkg/views"
+	"github.com/danish9039/harbor-cli/pkg/views/base/tablelist"
 )
 
 var columns = []table.Column{

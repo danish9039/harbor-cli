@@ -17,9 +17,9 @@ import (
 	"fmt"
 
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/models"
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/prompt"
-	"github.com/goharbor/harbor-cli/pkg/views/webhook/edit"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/prompt"
+	"github.com/danish9039/harbor-cli/pkg/views/webhook/edit"
 	"github.com/spf13/cobra"
 )
 

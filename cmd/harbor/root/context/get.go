@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v3"

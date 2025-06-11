@@ -16,7 +16,7 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 )
 
 func Test_EncryptionWithMockKeyring(t *testing.T) {

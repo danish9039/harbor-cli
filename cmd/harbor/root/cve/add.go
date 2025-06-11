@@ -14,8 +14,8 @@
 package cve
 
 import (
-	"github.com/goharbor/harbor-cli/pkg/api"
-	"github.com/goharbor/harbor-cli/pkg/views/cveallowlist/update"
+	"github.com/danish9039/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/views/cveallowlist/update"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

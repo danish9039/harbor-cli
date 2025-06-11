@@ -16,7 +16,7 @@ package main
 import (
 	"os"
 
-	"github.com/goharbor/harbor-cli/cmd/harbor/root"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root"
 )
 
 func main() {

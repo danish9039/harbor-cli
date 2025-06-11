@@ -19,7 +19,7 @@ import (
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/statistic"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/systeminfo"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/user"
-	"github.com/goharbor/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/utils"
 	"github.com/spf13/viper"
 )
 

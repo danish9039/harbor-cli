@@ -20,7 +20,7 @@ import (
 
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/goharbor/harbor-cli/pkg/views"
+	"github.com/danish9039/harbor-cli/pkg/views"
 )
 
 const listHeight = 14

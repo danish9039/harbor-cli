@@ -20,7 +20,7 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/models"
-	"github.com/goharbor/harbor-cli/pkg/views/base/selection"
+	"github.com/danish9039/harbor-cli/pkg/views/base/selection"
 )
 
 func ListArtifacts(artifacts []*models.Artifact, choice chan<- string) {

@@ -16,8 +16,8 @@ package api
 import (
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/client/immutable"
 	"github.com/goharbor/go-client/pkg/sdk/v2.0/models"
-	"github.com/goharbor/harbor-cli/pkg/utils"
-	"github.com/goharbor/harbor-cli/pkg/views/immutable/create"
+	"github.com/danish9039/harbor-cli/pkg/utils"
+	"github.com/danish9039/harbor-cli/pkg/views/immutable/create"
 	log "github.com/sirupsen/logrus"
 )
 

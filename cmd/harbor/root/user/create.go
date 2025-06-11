@@ -16,10 +16,10 @@ package user
 import (
 	"strings"
 
-	"github.com/goharbor/harbor-cli/pkg/api"
+	"github.com/danish9039/harbor-cli/pkg/api"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/goharbor/harbor-cli/pkg/views/user/create"
+	"github.com/danish9039/harbor-cli/pkg/views/user/create"
 	"github.com/spf13/cobra"
 )
 

@@ -14,7 +14,7 @@
 package tag
 
 import (
-	"github.com/goharbor/harbor-cli/cmd/harbor/root/tag/immutable"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root/tag/immutable"
 	"github.com/spf13/cobra"
 )
 

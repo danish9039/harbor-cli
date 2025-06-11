@@ -20,7 +20,7 @@ import (
 	"regexp"
 	"strings"
 
-	cmd "github.com/goharbor/harbor-cli/cmd/harbor/root"
+	cmd "github.com/danish9039/harbor-cli/cmd/harbor/root"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra/doc"
 )

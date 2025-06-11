@@ -14,7 +14,7 @@
 package project
 
 import (
-	"github.com/goharbor/harbor-cli/cmd/harbor/root/project/config"
+	"github.com/danish9039/harbor-cli/cmd/harbor/root/project/config"
 	"github.com/spf13/cobra"
 )
 
