@@ -1,6 +1,6 @@
 module dagger/harbor-cli
 
-go 1.23.1
+go 1.24.4
 
 require (
 	github.com/99designs/gqlgen v0.17.73
