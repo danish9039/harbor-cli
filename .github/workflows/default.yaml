@@ -186,15 +186,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run Snapshot with GoReleaser
-        uses: dagger/dagger-for-github@v7
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          version: "latest"
-          verb: call
-          args: "snapshot-release"
-
       - name: Publish and Sign Snapshot Image
         uses: ./.github/actions/publish-and-sign
         with:
